@@ -18,7 +18,7 @@ class FakultaetTest {
     }
     @Test
     void faculty_when2_then2() {
-        assertEquals(1, faculty.faculty(2));
+        assertEquals(2, faculty.faculty(2));
     }
     @Test
     void faculty_when3_then6() {
