@@ -30,6 +30,6 @@ class FakultaetTest {
     }
     @Test
     void faculty_when15_then1307674368000() {
-        assertEquals(1307674368000l, faculty.faculty(15));
+        assertEquals(1307674368000L, faculty.faculty(15));
     }
 }
